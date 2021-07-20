@@ -1,0 +1,49 @@
+
+
+.paragraph-styling{
+    margin: 1;
+    cursor: pointer;
+    font-size: 30px;
+    text-align: center;
+}
+
+.makeitright{
+    float: right;
+    margin: 6px;
+}
+
+.makeitleft{
+    float: left;
+}
+.das{
+    display: flex;
+  flex-wrap: nowrap;
+}
+
+.das1{
+    margin: 1px;
+}
+
+.nota{
+    position: relative;
+  display: inline-block;
+  
+
+}
+
+.nota .nota-apare{
+    visibility: hidden;
+  background-color: rgb(230, 247, 4);
+  color: rgb(5, 2, 2);
+  font-size: 12px;
+  text-align:justify;
+  padding: 7px;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  
+}
+ .nota:hover .nota-apare{
+     visibility: visible;
+ }
